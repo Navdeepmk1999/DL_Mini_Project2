@@ -4,7 +4,7 @@
 
 *Satya Deep Dasari* (gd2576@nyu.edu)  
 *Navdeep Mugathihalli Kumaregowda* (nm4686@nyu.edu)  
-New York University — CSCI‑GA Deep Learning Spring 2025
+New York University — Deep Learning Spring 2025
 
 🔗 *GitHub:* https://github.com/Navdeepmk1999/DL_Mini_Project2  
 📄 *Report:* [DLProject2 (3).pdf](./DLProject2%20.pdf)  
