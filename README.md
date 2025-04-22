@@ -7,17 +7,17 @@
 New York University — CSCI‑GA Deep Learning Spring 2025
 
 🔗 *GitHub:* https://github.com/Navdeepmk1999/DL_Mini_Project2  
-📄 *Report:* [DLProject2 (3).pdf](./DLProject2%20(3).pdf)  
+📄 *Report:* [DLProject2 (3).pdf](./DLProject2%20.pdf)  
 📓 *Notebook:* [dl-p2.ipynb](./dl-p2.ipynb)
 
 ---
 
 ## 🚀 Project Goal
 
-- Fine‑tune a *frozen RoBERTa‑base* model on *AG News* by training only *LoRA adapters*  
-- Limit *trainable parameters* to *< 1 million* (888 580 total)  
-- Achieve *≥ 84.6 %* test accuracy—within 0.4 pp of full fine‑tuning  
-- Shrink checkpoint size from 476 MB → 3 MB for easy sharing and on‑device use  
+- Fine‑tuning a *frozen RoBERTa‑base* model on *AG News* by training only *LoRA adapters*  
+- Limiting *trainable parameters* to *< 1 million* (888 580 total)  
+- Achieving *≥ 84.6 %* test accuracy—within 0.4 pp of full fine‑tuning  
+- Shrinking the checkpoint size from 476 MB → 3 MB for easy sharing and on‑device use  
 
 ---
 
@@ -46,7 +46,7 @@ New York University — CSCI‑GA Deep Learning Spring 2025
 
 ## 🛠️ Training Configuration
 
-- *Epochs:* 3  
+- *Epochs:* 4  
 - *Optimizer:* AdamW (lr = 5 × 10⁻⁵, weight decay = 0.01)  
 - *Scheduler:* 10 % linear warm‑up → cosine decay  
 - *Loss:* Cross‑entropy + label smoothing (ε = 0.1)  
